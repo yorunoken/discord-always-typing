@@ -31,5 +31,5 @@ jobs:
             - name: Upload Artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: discord-always-typing.exe
+                  name: discord-always-typing-windows_x86
                   path: target/x86_64-pc-windows-gnu/release/discord-always-typing.exe
