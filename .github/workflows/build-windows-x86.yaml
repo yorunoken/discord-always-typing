@@ -31,5 +31,5 @@ jobs:
             - name: Upload Artifact
               uses: actions/upload-artifact@v4
               with:
-                  name: markov-bot_x86.exe
-                  path: target/x86_64-pc-windows-gnu/release/markov-bot.exe
+                  name: discord-always-typing.exe
+                  path: target/x86_64-pc-windows-gnu/release/discord-always-typing.exe
